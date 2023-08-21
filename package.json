@@ -6,7 +6,8 @@
     "dev": "turbo dev --no-cache  --continue",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo lint",
-    "test": "turbo test"
+    "test": "turbo test",
+    "clean-project": "sh ./scripts/clean-project.sh"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
